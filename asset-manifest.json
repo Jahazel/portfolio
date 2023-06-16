@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Jahazel/portfolio/static/css/main.c8a2afba.css",
+    "main.js": "/Jahazel/portfolio/static/js/main.16b26208.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Jahazel/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/hero_img.jpeg": "/Jahazel/portfolio/static/media/hero_img.09850980beacb2b026c6.jpeg",
+    "index.html": "/Jahazel/portfolio/index.html",
+    "main.c8a2afba.css.map": "/Jahazel/portfolio/static/css/main.c8a2afba.css.map",
+    "main.16b26208.js.map": "/Jahazel/portfolio/static/js/main.16b26208.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Jahazel/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8a2afba.css",
+    "static/js/main.16b26208.js"
+  ]
+}
