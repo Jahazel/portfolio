@@ -12,11 +12,13 @@ body {
 
 /* Navbar styles */
 .navbar {
-  width: 100%;
+  width: 90%;
   height: 20vh;
   display: flex;
   align-items: center;
   font-family: "Inter", sans-serif;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .navbar-container {
