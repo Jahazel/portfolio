@@ -6,26 +6,23 @@
   box-sizing: border-box;
 }
 
-html,
 body {
-  height: 100%;
-  margin: 0;
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-}
-
-#root {
-  height: 100%; /* Ensures App spans full viewport */
-  display: flex;
-  flex-direction: column;
 }
 
 /* Navbar styles */
 .navbar {
+  height: 15vh;
   width: 100%;
-  min-height: 18vh;
+  position: fixed; /* Pin to the top */
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 
 .navbar-container {
@@ -61,11 +58,11 @@ body {
 /* Intro styling */
 .intro-container {
   width: 70%;
-  
-  flex-grow: 1;
+  min-height: calc(100vh - 15vh);
+  margin-top: 15vh;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
+  padding-top: 5rem;
 }
 
 .hero_img {
