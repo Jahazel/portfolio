@@ -1,10 +1,14 @@
 import TechTag from "./TechTag";
 
-const ProjectCard = ({ title, description, image, techStack }) => {
+const ProjectCard = ({ title, description, image, stack, link }) => {
+  const handleDivClick = () => {
+    window.open(link, "_blank");
+  };
+
   return (
     <>
-      <div className="project-card">
-        <div className="projetc-header">
+      <div className="project-card" onClick={handleDivClick}>
+        <div className="project-header-container">
           <h2 className="project-title">{title}</h2>
           <p className="project-description">{description}</p>
         </div>
@@ -12,7 +16,7 @@ const ProjectCard = ({ title, description, image, techStack }) => {
           <img className="project-image" src={image} />
         </div>
         <div className="project-tech">
-          <TechTag tags={techStack} />
+          <TechTag tags={stack} />
         </div>
       </div>
     </>
