@@ -8,7 +8,11 @@ const Navbar = () => {
           </a>
           <ul className="navbar-links">
             <li>
-              <a href="/resume.pdf" target="_blank">
+              <a
+                href="/portfolio/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Resume
               </a>
             </li>
